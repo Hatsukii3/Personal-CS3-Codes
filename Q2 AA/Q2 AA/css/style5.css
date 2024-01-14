@@ -1,0 +1,188 @@
+* {
+    margin-top: 0px;
+    margin-bottom: 9px; 
+    padding: 3px; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background-color: blanchedalmond;
+    margin-left: 20px;
+    margin-right: 20pxp;
+
+}
+body,img {
+    background-color: rgb(255, 255, 255);
+    margin-top:0px;
+
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+img{
+    float:left;
+}
+.head {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    text-align:center;
+}
+.title h1{
+    margin: 10px;
+    width:100%;
+}
+
+.head h1{
+    width:100%;
+    text-align:center;
+    margin-top:9px ;
+}
+
+h1{
+    float: right;
+    overflow: auto;
+}
+.pages{
+    text-align: center;
+}
+
+.pages a {
+    font-size: 23px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.pages a:hover{
+    color: rgb(241, 0, 0);
+}
+
+.pages a::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to left, #ff00ee , #4ec1ea);
+    transition: 0.3s;
+    text-decoration: none;
+    border: blanchedalmond;
+}
+
+.pages a{
+    color: black;
+    margin-left: 1em;
+    position: relative;
+    border: blanchedalmond;
+}
+
+.pages a:hover::after{
+    width: 100%;
+}
+
+.content{
+    border: solid 3px blanchedalmond;
+    margin: 45px;
+    padding: 3px;
+}
+img{
+    float: left;
+}
+
+
+footer {
+    position: sticky; 
+    text-align: center; 
+    font-weight: bold; 
+    width: 100%;
+    margin-bottom: 8px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    
+  .con{
+    margin-left: 80px;
+  }
+.pic1{
+    border: solid 4px black;
+    width: 300px; 
+    margin: 90px;
+    height: 300px;
+    float: left;
+}
+.pic2 {
+    border: solid 4px black;
+    width: 300px; 
+    margin: 90px;
+    height: 300px;
+    float: right;
+}
+.pic3{
+    border: solid 4px black;
+    width: 300px; 
+    margin: 90px;
+    height: 300px;
+}
+
+.twit2{
+        background: url('../images/sprite.png') no-repeat -165px -252px;
+        width: 154px;
+        height: 153px;
+    }
+.twit2:hover{
+        background: url('../images/sprite.png') no-repeat -165px -55px;
+        width: 154px;
+        height: 153px;
+    }
+.twit2 {
+        margin-left: 400px;
+        float: left;
+}
+
+.fb{
+    background: url('../images/sprite.png') no-repeat -401px -248px;
+	width: 155px;
+	height: 155px;
+}
+.fb:hover{
+    background: url('../images/sprite.png') no-repeat -401px -52px;
+	width: 155px;
+	height: 155px;
+}
+   
+.git{
+    background: url('../images/sprite.png') no-repeat -622px -249px;
+	width: 157px;
+	height: 157px;
+}
+.git:hover{
+    background: url('../images/sprite.png') no-repeat -623px -55px;
+	width: 154px;
+	height: 153px;
+}
+.git {
+    margin-left: px;
+    float: left;
+
+}
+
+.ref{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+

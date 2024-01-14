@@ -1,0 +1,88 @@
+* {
+    margin: 9px;
+    margin-top: 0px;
+    marin-bottom:2px ;
+    padding: 3px; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: auto;
+    background-color: blanchedalmond;
+}
+.title {
+    text-align: center;
+}
+
+.head h1{
+    float: right;
+}
+
+.head img #par2{
+    float:left;
+}
+.head {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.pages{
+    float:right;
+}
+
+
+.pages a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .4s;
+}
+
+.pages a:hover{
+    color: rgb(241, 0, 0);
+}
+
+.pages a::after{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to left, #ff00ee , #4ec1ea);
+    transition: 0.3s;
+    text-decoration: none;
+    border: blanchedalmond;
+}
+
+.pages a{
+    color: black;
+    margin-left: 1em;
+    position: relative;
+    border: blanchedalmond;
+}
+
+.pages a:hover::after{
+    width: 100%;
+}
+
+.content{
+    border: solid 3px blanchedalmond;
+    margin: 45px;
+    padding: 3px;
+}
+img{
+    float: left;
+}
+
+
+footer {
+    position: absolute; 
+    text-align: center; 
+    font-weight: bold; 
+    width: 100%;
+    }
